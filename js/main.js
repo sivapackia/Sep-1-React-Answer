@@ -56,7 +56,21 @@
 		}
 		mul(8)
 		
-		answer:NaN
+		answer:
+		a) NaN
+		b) correct ans:
+                    function mul(c,d=1){
+                    return c*d
+                    }		
+                    console.log(mul(8))
+               
+             c)Default Param
+             d) correct ans:
+                    function mul(c,d){
+                    return c*d
+                    }
+                   let c = mul(3,2)					
+                    console.log(c)
 		
 		
    6.let data = {name: "ES6"}
@@ -114,6 +128,10 @@
 				let output=input.filter((v,i)=>{
 					return v.position=="junior"?v.name:""
 				})
+				let result=output.map((v,i)=>{
+					return v.position=="junior"?v.name:""
+				})
+                console.log(result)
 		
 		
 		
@@ -122,7 +140,7 @@
 		
 		
 		Answer:let a= [{name:"a" ,age:23},{name:"b" ,age:15},{name:"c" ,age:45},{name:"d" ,age:34}]
-					localStorage.setItem("b",JSON.stringify(a))
+					localStorage.setItem("localStorage",JSON.stringify(a))
 		
 		
 		
@@ -183,7 +201,7 @@
 		import React from "react";
 
 			export const initialState={
-				name:"akila",
+				name:"Rspkannan",
 				age:20
 			   
 			   }
@@ -276,5 +294,5 @@
   
   17. How to create react project?
   
-       Answer:npx react-create-app myapp
+       Answer:npx react-create-app myproject
 	
